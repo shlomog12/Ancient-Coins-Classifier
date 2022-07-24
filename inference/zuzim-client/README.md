@@ -25,3 +25,5 @@ docker build -t zuzim-client:1.0.0 .
 ```shell
 docker run -d -p 3333:3000 --name zuzim_client zuzim-client:1.0.0
 ```
+## GET
+http://localhost:3333/
