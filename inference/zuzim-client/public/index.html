@@ -21,19 +21,22 @@
 
     <div class="body">
       <div class="items">
-        <label for="inputTag">בחר תמונה <br/>
+        <label class="selectImageLabel" for="inputTag">
+          <text class="selectImageLabelText">בחר תמונה</text>
           <i class="fa fa-2x fa-camera"></i>
           <input id="inputTag" type="file"/>
-          <br/>
-          <span id="imageName"></span>
+          <span class="imageName" id="imageName"></span>
         </label>
-        <br/>
-        <button class="btnRun" onclick="sendPhoto(event)">הרץ מודל</button>
+        <button class="btnRun" onclick="runModel()">הרץ מודל</button>
       </div>
-      <div class="result">
+      <div id='result' class="result">
         <div class="titleRes">תוצאה:</div>
         <!-- תוצאה: -->
-        <div id="textRes" class="textRes"></div>
+        <!-- <div id="textRes" class="textRes"></div> -->
+        <a id='textRes' class='textRes' href="url"></a>
+        <!-- <img src= "images/Aristobulus-I.jpg"> -->
+        <img class="imageRes" id="imageRes">
+      
       </div>
     </div>
 
