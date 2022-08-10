@@ -1,0 +1,13 @@
+numpy
+Click>=7.1.2
+Flask>=1.1.2
+itsdangerous==1.1.0
+Jinja2>=2.11.2
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
+gunicorn>=20.0.4
+torch==1.12.0
+torchvision==0.13.0
+flask_cors
+pytz>=2021.3
+pillow>=9.2.0
