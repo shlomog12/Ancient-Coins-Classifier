@@ -47,19 +47,14 @@ def initialize_model(model_name, num_classes, feature_extract, use_pretrained=Tr
     return model_ft, input_size
 
 
-
-
-
-
-
-def train_model(img, model_path='../models/model_ft.pth'):
+def get_inference(img, model_path='./models/model_ft2.pth'):
     tensor_img = get_tensor_of_image(img)
     print(tensor_img.shape)
 
     num_classes = 3
-    feature_extract = True
+    feature_extract = False
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model, input_size = initialize_model('resnet', num_classes, feature_extract, use_pretrained=True)
+    model, input_size = initialize_model('resnet', num_classes, feature_extract, use_pretrained=False)
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
     list_of_x = [tensor_img]
@@ -73,6 +68,7 @@ def train_model(img, model_path='../models/model_ft.pth'):
         print(preds.tolist())
         print('___________')
         return preds.tolist()[0]
+
 
 def get_tensor_of_image(image):
     transform = ToTensor()
