@@ -47,7 +47,7 @@ def initialize_model(model_name, num_classes, feature_extract, use_pretrained=Tr
     return model_ft, input_size
 
 
-def get_inference(img, model_path='./models/model_ft2.pth'):
+def get_inference(img, model_path='../models/model_ft.pth'):
     tensor_img = get_tensor_of_image(img)
     print(tensor_img.shape)
 
