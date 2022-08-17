@@ -24,7 +24,5 @@ Fast and easy-to-use User Interface:
 
 ## Coin Example
 
-![](https://o.remove.bg/downloads/99ffde92-38e6-4c25-a244-a17a00ebc4a3/prutah-removebg-preview.png)
-![](https://o.remove.bg/downloads/b5dd918a-6494-4c8c-b5b4-cdf3b9410720/1-removebg-preview.png)
-
+![_1_724706-removebg-preview](https://user-images.githubusercontent.com/71274563/185056223-8d99b265-d0b3-4d31-b3d6-4b1c3526b120.png) ![1-removebg-preview](https://user-images.githubusercontent.com/71274563/185056243-321d51d6-fb69-44a3-b564-9a59d7493e3b.png) ![prutah-removebg-preview](https://user-images.githubusercontent.com/71274563/185056253-c7747984-ed0e-443c-afee-99524ef8f16d.png)
 
